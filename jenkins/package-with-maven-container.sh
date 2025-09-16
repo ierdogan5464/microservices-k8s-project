@@ -1,0 +1,1 @@
+docker run --rm -v $HOME/.m2:/root/.m2 -w /app -v $WORKSPACE:/app  maven:3.8-openjdk-11 mvn clean package
